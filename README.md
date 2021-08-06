@@ -38,25 +38,33 @@ Após escolher o seu candaidato o sistema retornará os dados do escolhido para 
 
 
 ### 6.MODELO CONCEITUAL<br>
-    A) Utilizar a Notação adequada (Preferencialmente utilizar o BR Modelo 3)
-    B) O mínimo de entidades do modelo conceitual pare este trabalho será igual a 3 e o Máximo 5.
-        * informe quais são as 3 principais entidades do sistema em densenvolvimento
- <br>(se houverem mais de 3 entidades, pense na importância da entidade para o sistema)       
-    C) Principais fluxos de informação/entidades do sistema (mínimo 3). <br>Dica: normalmente estes fluxos estão associados as tabelas que conterão maior quantidade de dados 
-    D) Qualidade e Clareza
-        Garantir que a semântica dos atributos seja clara no esquema (nomes coerentes com os dados).
-        Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
-        e tuplas falsas (Aplicar os conceitos de normalização abordados).   
-            
+  ![image](https://user-images.githubusercontent.com/88466893/128507446-0c2f9dcb-efbb-4e83-86b7-513ccaefa138.png)
+
       
     
 #### 6.1 Descrição dos dados 
     [objeto]: [descrição do objeto]
     
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
-
+    Eleitor: Tabela que armazena as informações relativas ao funcionário<br>
+    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada funcionário da empresa.<br>
+    Endereço: campo que armazena o endereço do funcionário.<br>
+    Nome: campo que armazena o nome do funcionário<br>
+    Matrícula: identificador do funcionário<br>
+    Escolha do funcionário: campo que armazena o número referente ao candidato escolhido pelo funcionário<br>
+    
+    Candidato: Tabela que armazena as informações relativas ao candidato<br>
+    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada candidato da empresa.<br>
+    Idade: campo que armazena a idade do candidato.<br>
+    Nome: campo que armazena o nome do candidato<br>
+    Matrícula: identificador do candidato<br>
+    Número: campo que armazena o número do candidato<br>
+    
+    
+    Empresa: Tabela que armazena as informações relativas a empresa<br>
+    Endereço: campo que armazena o endereço da empresa.<br>
+    Razão social: campo que armazena o nome da empresa<br>
+    CNPJ : Campo que armazena o número do Cadastro Nacional de Pessoa Jurídica da empresa<br>
+    Cargo ofertado: vaga que o candidato está concorrendo na empresa<br>
 ### 7	MODELO LÓGICO<br>
         a) inclusão do esquema lógico do banco de dados
         b) verificação de correspondencia com o modelo conceitual 
