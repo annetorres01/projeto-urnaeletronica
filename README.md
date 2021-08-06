@@ -28,10 +28,7 @@ Após escolher o seu candaidato o sistema retornará os dados do escolhido para 
 
 
 ### 4 TABELA DE DADOS DO SISTEMA:
-    A) Esta tabela deve conter **todos os atributos do sistema** e um mínimo de 10 linhas/registros de dados.
-    B) Esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
- <br> (veja o exemplo abaixo antes de criar a tabela para seu trabalho)
-    C) Após criada esta tabela não deve ser modificada, pois será comparada com os resultados finais na conclusão do trabalho
+   https://docs.google.com/spreadsheets/d/1aT2AxWSsNnTO1J_Ju3kJGb8jjKlWov5A3LmBYEtSwl8/edit#gid=0
     
  ### 5.PMC<br>
 ![image](https://user-images.githubusercontent.com/88466893/128278510-bdc8c61a-22d4-4398-9f94-9e68c4c2a690.png)
