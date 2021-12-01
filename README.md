@@ -9,13 +9,11 @@ Fernanda Pereira de Assis: fernandap.deassis@gmail.com<br>
 Milena Silva Loureiro: milenaloureirosilva@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto integrador urna eletrônica 
-<br> O objetivo desse sistema é facilitar a escolha de candidatos a um cargo por meio de uma votação eletrônica <br>
+Este documento contém a especificação do projeto integrador do tema votoção eletrônica 
+<br> O objetivo desse sistema é facilitar a votação de ideias/candidatos por meio de uma votação eletrônica <br>
 ### 2.MINIMUNDO<br>
 
-O programa desenvolvido é a simulação de uma urna eletrônica, que poderá ser usada de diversas maneiras, seja em uma votação para cargos em uma empresa, ou na escolha de um diretor em escolas. A simulação tem o intuito de facilitar as concorrências, e proporcionar mais segurança aos usuários. Para a urna eletrônica ter 100% de aproveitamento é preciso informar alguns dados, como: Nome do candidato, CPF do candidat, número eleitoral, data de nascimento,idade do candidato,matrícula do candidato, nome dos votante, cpf do votante, edereço do votante, matrícula do votante, função exercida pelo votante e a escolha do candidato de cada eleitor.Após a  inserção dos dados a urna irá calcular a quantidade de votos que cada candidato teve e informar o resultado ao responsável pela votação. É importante lembrar que cada eleitor votará apenas uma vez em 1 único candidato.
-Após escolher o seu candaidato o sistema retornará os dados do escolhido para confirmação do voto como forma de auditar a eleição.
-
+O sistema desenvolvido é uma votação eletrônica, que poderá ser acessado via Web ou Aplicativo (VOTE AQUI), o intuito é que seja usado para votação de uma eleição de pequeno porte (sindicatos,grêmios estudantis, cargo de empresas, etc) ou para votação de ideias (obras em um bairro - associações comunitárias, palestrante que deve ser convidado para um evento - grêmio estudantil). O objetivo desse sistema é tornar o processo de votação dinâmico, intuito, prático, reduzir custos e propocionar maior segurança aos usuários. Para a votação eletrônica ter 100% de aproveitamento é preciso que haja um organizador que insira no banco de dados as informações dos candidatos (número, cpf, nome) ou propostas (imagem, título, descrição) além dos dados dos votantes (cpf e nome). Após a  inserção dos dados a votção será iniciada e cada eleitor fará o login para poder votar, quando receber a permissão irá escolher seu candidato ou decisão. Cada eleitor só poderá fazer uma escolha. Depois de todos votarem o sistema calculará o candidato/decisão vencedora e exibirá na tela.
 
 ### 3.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
@@ -23,8 +21,8 @@ Após escolher o seu candaidato o sistema retornará os dados do escolhido para 
 
 
 #### 3.1 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-* Relatório que informe quais são os candidatos ao cargo incluido as seguintes informações: nome do candidato, cpf do candidato, matrícula do candidato, idade do candidato e número do candidato.
-* Relatório que informe os dados dos votantes incluindo as seguintes informações: nome do votante, cpf do votante, endereço do votante, matrícula do votante, função exercida pelo votante e a escolha do candidato do votante.
+* Relatório que informe quais são os candidatos ao cargo incluido as seguintes informações: nome do candidato, cpf do candidato e número do candidato.
+* Relatório que informe os dados dos votantes incluindo as seguintes informações: nome do votante, cpf do votante, email do votante  e a escolha do candidato do votante.
 
 
 ### 4 TABELA DE DADOS DO SISTEMA:
